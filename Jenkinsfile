@@ -3,7 +3,7 @@ pipeline {
         label "jenkins-nodejs"
     }
     environment {
-      ORG               = 'bog_org'
+      ORG               = 'bog-jx'
       APP_NAME          = 'bog-node-http'
       CHARTMUSEUM_CREDS = credentials('jenkins-x-chartmuseum')
     }
